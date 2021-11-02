@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>tente abrir este site em vários dispositivos diferentes ou apenas mude o tamanho do sue navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="gimpo/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="gimpo/foto-m.png" type="image/png">
+        <img src="gimpo/foto-g.png" alt="foto flexivel">
+
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a produzir um audio no meu site</p>
+    <audio preload="auto" controls loop> 
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+
+    </audio>
+    <!--MP3 WAV OGG-->
+</body>
+</html>
